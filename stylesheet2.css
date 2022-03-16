@@ -70,7 +70,7 @@
     text-align: left;
     padding: 180px 0 100px 0;
     background-color: #ffffff;
-    background-image: url('BG.png');
+    background-image: url('image/BG.png');
     background-size: cover;
     background-attachment: fixed;
   }
@@ -283,22 +283,22 @@
   }
   
   .socials a1 {
-    content: url('facebook.png');
+    content: url('image/facebook.png');
     max-width: 40px
   }
 
   .socials a2 {
-    content: url('linkedin.png');
+    content: url('image/linkedin.png');
     max-width: 40px
   }
 
   .socials a3 {
-    content: url('instagram.png');
+    content: url('image/instagram.png');
     max-width: 40px
   }
 
   .socials a4 {
-    content: url('youtube.png');
+    content: url('image/youtube.png');
     max-width: 40px  
   }
 

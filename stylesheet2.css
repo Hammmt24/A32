@@ -29,6 +29,42 @@
     margin: 0 auto;
   }
   
+  header {
+    height: 65px;
+    width: 100%;
+    background-color: rgba(34, 49, 52, 0.9);
+    position :fixed;
+    top: 0;
+    z-index: 10;
+  }
+  
+  .logo {
+    width: 200px;
+    margin-top: 0;
+  }
+  
+  .header-left {
+    float: left;
+  }
+  
+  .header-right {
+    float: right;
+    margin-right: -25px;
+  }
+
+  .header-right a {
+    line-height: 65px;
+    padding: 0 25px;
+    color: white;
+    display: block;
+    float: left;
+    transition: all 0.5s;
+  }
+  
+  .header-right a:hover {
+    background-color: rgba(0, 0, 0, 0.3);
+  }
+
   .top-wrapper {
     padding: 180px 0 100px 0;
     background-image: url(https://img.freepik.com/free-vector/mobile-app-development-background_73903-295.jpg);
@@ -57,6 +93,7 @@
   
   .btn-wrapper p {
     margin: 10px 0;
+    line-height: 1.5rem;
   }
   
   .email {
@@ -70,7 +107,7 @@
   
   .twitter {
     background-color: #55acee;
-    margin: 0 10px;
+    margin: 1 10px;
   }
   
   .linkedin {
@@ -78,57 +115,25 @@
   }
   
   .btn {
-    padding: 12px 24px;
+    padding: 10px 22px;
     color: white;
     display: inline-block;
     opacity: 0.8;
     border-radius: 4px;
+    border: none;
     text-align: center;
+    box-shadow: 0 9px rgb(84, 81, 81);
   }
   
+  .btn:active {
+    position: relative;
+    top: 7px;
+    box-shadow: none;
+  }
   .btn:hover {
-    opacity: 1;
+    opacity: 10;
   }
   
-  .fa {
-    margin-right: 5px;
-  }
-  
-  header {
-    height: 65px;
-    width: 100%;
-    background-color: rgba(34, 49, 52, 0.9);
-    position :fixed;
-    top: 0;
-    z-index: 10;
-  }
-  
-  .logo {
-    width: 200px;
-    margin-top: 0;
-  }
-  
-  .header-left {
-    float: left;
-  }
-  
-  .header-right {
-    float: right;
-    margin-right: -25px;
-  }
-  
-  .header-right a {
-    line-height: 65px;
-    padding: 0 25px;
-    color: white;
-    display: block;
-    float: left;
-    transition: all 0.5s;
-  }
-  
-  .header-right a:hover {
-    background-color: rgba(0, 0, 0, 0.3);
-  }
   .lesson-wrapper {
     padding-bottom: 80px;
     padding-left: 5%;
@@ -267,7 +272,6 @@
   }
   
   .socials {
-    list-style: none;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -278,11 +282,24 @@
     margin: 0 10px;
   }
   
-  .socials a {
-    text-decoration: none;
-    color: #000080;
+  .socials a1 {
+    content: url('https://api.iconify.design/entypo-social/facebook-with-circle.svg');
   }
-  
+
+  .socials a2 {
+    content: url('https://api.iconify.design/entypo-social/linkedin-with-circle.svg');
+  }
+
+  .socials a3 {
+    content: url('https://api.iconify.design/entypo-social/instagram-with-circle.svg');
+    text-decoration: none;
+  }
+
+  .socials a4 {
+    content: url('https://api.iconify.design/entypo-social/youtube-with-circle.svg');
+    text-decoration: none;   
+  }
+
   .socials a i {
     font-size: 1.3rem;
     transition: color .4s ease;

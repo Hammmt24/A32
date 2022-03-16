@@ -32,7 +32,7 @@
   header {
     height: 65px;
     width: 100%;
-    background-color: rgba(34, 49, 52, 0.9);
+    background-color: #223134e6;
     position :fixed;
     top: 0;
     z-index: 10;
@@ -66,22 +66,24 @@
   }
 
   .top-wrapper {
-    padding: 180px 0 100px 0;
-    background-image: url(https://img.freepik.com/free-vector/mobile-app-development-background_73903-295.jpg);
-    background-size: cover;
     color: rgb(0, 0, 0);
     text-align: left;
+    padding: 180px 0 100px 0;
+    background-color: #ffffff;
+    background-image: url('BG.png');
+    background-size: cover;
+    background-attachment: fixed;
   }
-  
+
   .top-wrapper h1 {
-    opacity: 0.7;
+    opacity: 1;
     font-size: 45px;
     letter-spacing: 5px;
     margin-bottom: 10px;
   }
   
   .top-wrapper p {
-    opacity: 0.7;
+    opacity: 1;
     margin-bottom: 3px;
     letter-spacing:2px;
   }
@@ -138,7 +140,7 @@
     padding-bottom: 80px;
     padding-left: 5%;
     padding-right: 5%;
-    background-color: #f7f7f7;
+    background-color: #ffffff;
     text-align: center;
   }
   
@@ -176,8 +178,6 @@
   .lesson-icon img{
     padding-bottom: 15px;
   }
-  
-  /*Penambahan Hover di image course*/
   
   .lesson-icon:hover .overlay{
     opacity: 0.7;
@@ -241,7 +241,7 @@
   }
 
   footer {
-    background-color: #93cee9;
+    background-color: #223134e6;
     height: auto;
     width: 100vw;
     font-family: "Aspira WebFont", Helvetica, Arial, sans-serif;
@@ -283,30 +283,44 @@
   }
   
   .socials a1 {
-    content: url('https://api.iconify.design/entypo-social/facebook-with-circle.svg');
+    content: url('facebook.png');
+    max-width: 40px
   }
 
   .socials a2 {
-    content: url('https://api.iconify.design/entypo-social/linkedin-with-circle.svg');
+    content: url('linkedin.png');
+    max-width: 40px
   }
 
   .socials a3 {
-    content: url('https://api.iconify.design/entypo-social/instagram-with-circle.svg');
-    text-decoration: none;
+    content: url('instagram.png');
+    max-width: 40px
   }
 
   .socials a4 {
-    content: url('https://api.iconify.design/entypo-social/youtube-with-circle.svg');
-    text-decoration: none;   
+    content: url('youtube.png');
+    max-width: 40px  
+  }
+
+  .socials a1:hover {
+    background-color: #504e4e;
+  }
+
+  .socials a2:hover {
+    background-color: #504e4e;
+  }
+
+  .socials a3:hover {
+    background-color: #504e4e;
+  }
+
+  .socials a4:hover {
+    background-color: #504e4e;
   }
 
   .socials a i {
     font-size: 1.3rem;
     transition: color .4s ease;
-  }
-  
-  .socials a:hover i{
-    color: #fff;
   }
   
   img.image {
@@ -316,7 +330,7 @@
     margin-right: auto;
   }
   .footer-container p {
-    color : #000000;
+    color : #ffffff;
     font-size : 15px;
     text-align: center;
   }
@@ -339,13 +353,3 @@
     opacity: .4;
     font-weight: 200;
   }
-  
-  /* Write your code below */
-  span.menu-icon {
-    color: white;
-    float: right;
-    font-size: 25px;
-    padding: 21px 0;
-    display: none;
-  }
-  

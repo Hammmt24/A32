@@ -1,161 +1,57 @@
-/* For Tablets */
+/* Untuk Tablet */
 @media all and (max-width: 1000px) {
-    .top-wrapper h1 {
-      font-size: 32px;
-    }
-  
-    .heading h2 {
-      font-size: 20px;
-    }
-    
-    .lesson {
-      width: 50%;
-      margin-bottom: 50px;
-    }
+  .lesson {
+    width: 50%;
+    margin-bottom: 50px;
   }
   
-  /* For Smartphones */
-  @media all and (max-width: 670px) {
-    .header-right {
-      display: none;
-    }
-    
-    span.menu-icon {
-      display: block;
-    }
-    
-    .btn {
-      width: 100%;
-    }
-
-    .twitter {
-      margin: 10px 0;
-    }
-  
-    .facebook {
-      margin-bottom: 10px;
-    }
-    
-    .top-wrapper {
-      text-align: left;
-    }
-    
-    .top-wrapper h1 {
-      font-size: 24px;
-      line-height: 36px;
-    }
-    
-    .top-wrapper p {
-      font-size: 14px;
-      line-height: 20px;
-    }
-    
-    .lesson {
-      width: 100%;
-    }
-    
-    footer {
-      text-align: center;
-    }
+  .top-wrapper h1 {
+    font-size: 32px;
   }
-
-.lesson-wrapper {
-  padding-bottom: 80px;
-  padding-left: 5%;
-  padding-right: 5%;
-  background-color: #f7f7f7;
-  text-align: center;
-}
-
-.heading {
-  padding-top: 80px;
-  padding-bottom: 50px;
-  color: #5f5d60;
-}
-
-.heading h2 {
-  font-weight: normal;
-}
-.heading h3 {
-  font-weight: normal;
-}
-
-/* Mulai dari sini*/
-
-.lesson {
-  float: left;
-  width: 25%;
-}
-
-.lesson-icon {
-  position: relative;
-}
-
-.lesson-icon p {
-  position: absolute;
-  top: 80%;
-  width: 100%;
-  color: black;
-}
-
-.lesson-icon img{
-  padding-bottom: 15px;
-}
-
-/*Penambahan Hover di image course*/
-
-.lesson-icon:hover .overlay{
-  opacity: 0.7;
-}
-
-.overlay {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 100%;
-  width: 100%;
-  opacity: 0;
-  transition: .5s ease;
   
+  .heading h2 {
+    font-size: 20px;
+  }
 }
 
-.text {
-  color: white;
-  font-size: 40px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  text-align: center;
-}
-
-.heading h3 {
-  font-weight: normal;
-}
-
-.message-wrapper {
-  border-bottom: 1px solid #eee;
-  padding-bottom: 80px;
-  text-align: center;
-}
-
-.message-wrapper.container {
-  background-color: #54a0ff;
-}
-
-.message {
-  padding: 15px 40px;
-  background-color: #5dca88;
-  cursor: pointer;
-  box-shadow: 0 7px #1a7940;
-}
-
-.message:active {
-  position: relative;
-  top: 7px;
-  box-shadow: none;
+/* Untuk Smartphone */
+@media all and (max-width: 670px) {
+  .lesson {
+    width: 100%;
+  }
+  
+  footer {
+    text-align: center;
+  }
+  
+  .btn {
+    width: 100%;
+  }
+  
+  .twitter {
+    margin: 10px 0;
+  }
+  
+  .top-wrapper {
+    text-align: left;
+  }
+  
+  .header-right{
+    display: none;
+  }
+  
+  /* Tambahkan CSS untuk menu-icon */
+  .menu-icon{
+    display: block;
+  }
+  
+  .top-wrapper h1 {
+    font-size: 24px;
+    line-height: 36px;
+  }
+  
+  .top-wrapper p {
+    font-size: 14px;
+    line-height: 20px;
+  }
 }

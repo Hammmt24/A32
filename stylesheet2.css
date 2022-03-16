@@ -39,7 +39,7 @@
   
   .top-wrapper h1 {
     opacity: 0.7;
-    font-size: 30px;
+    font-size: 45px;
     letter-spacing: 5px;
     margin-bottom: 10px;
   }
@@ -47,15 +47,34 @@
   .top-wrapper p {
     opacity: 0.7;
     margin-bottom: 3px;
+    letter-spacing:2px;
   }
   
   .btn-wrapper {
-    text-align: left;
+    text-align: center;
     margin: 20px 0;
   }
   
-  .getStarted {
-    background-color: #cac70e;
+  .btn-wrapper p {
+    margin: 10px 0;
+  }
+  
+  .email {
+    background-color: #239b76;
+  }
+  
+  .facebook {
+    background-color: #3b5998;
+    
+  }
+  
+  .twitter {
+    background-color: #55acee;
+    margin: 0 10px;
+  }
+  
+  .linkedin {
+    background-color: #0072b1;
   }
   
   .btn {
@@ -85,8 +104,8 @@
   }
   
   .logo {
-    width: 200px;
-    margin-top: 0px;
+    width: 124px;
+    margin-top: 20px;
   }
   
   .header-left {
@@ -110,7 +129,6 @@
   .header-right a:hover {
     background-color: rgba(255, 255, 255, 0.3);
   }
-  
   .lesson-wrapper {
     padding-bottom: 80px;
     padding-left: 5%;
@@ -125,9 +143,14 @@
     color: #5f5d60;
   }
   
+  .heading h1 {
+    font-weight: normal;
+  }
   .heading h2 {
     font-weight: normal;
   }
+  
+  /* Mulai dari sini*/
   
   .lesson {
     float: left;
@@ -140,17 +163,44 @@
   
   .lesson-icon p {
     position: absolute;
-    top: 44%;
+    top: 80%;
     width: 100%;
-    color: white;
+    color: black;
   }
   
-  .text-contents {
-    width: 80%;
-    display: inline-block;
-    margin-top: 15px;
-    font-size: 15px;
-    color: #b3aeb5;
+  .lesson-icon img{
+    padding-bottom: 15px;
+  }
+  
+  /*Penambahan Hover di image course*/
+  
+  .lesson-icon:hover .overlay{
+    opacity: 0.7;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    
+  }
+  
+  .text {
+    color: black;
+    font-size: 40px;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
   }
   
   .heading h3 {
@@ -161,6 +211,10 @@
     border-bottom: 1px solid #eee;
     padding-bottom: 80px;
     text-align: center;
+  }
+  
+  .message-wrapper.container {
+    background-color: #54a0ff;
   }
   
   .message {
@@ -176,18 +230,94 @@
     box-shadow: none;
   }
   
-  footer img {
-    width: 125px;
-  }
-  
-  footer p {
-    color: #b3aeb5;
-    font-size: 12px;
-  }
-  
   footer {
-    padding-top: 30px;
+    padding-top: 20px;
     padding-bottom: 20px;
+  }
+
+  footer {
+    background-color: #93cee9;
+    height: auto;
+    width: 100vw;
+    font-family: "Brush Script MT";
+    padding-top: 35px;
+    color: #fff;
+  }
+  
+  .footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .footer-content h3 {
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 3rem;
+  }
+  
+  .footer-content p {
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+  }
+  
+  .socials {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+  }
+  
+  .socials li {
+    margin: 0 10px;
+  }
+  
+  .socials a {
+    text-decoration: none;
+    color: #000080;
+  }
+  
+  .socials a i {
+    font-size: 1.3rem;
+    transition: color .4s ease;
+  }
+  
+  .socials a:hover i{
+    color: #fff;
+  }
+  
+  footer img {
+    width: 150px;
+  }
+  
+  .container p {
+    color: #000000;
+    font-size: 20px;
+  }
+  
+  .footer-bottom {
+    background: #6b6b6a;
+    width: 100vw;
+    padding: 10px 0;
+    text-align: center;
+  }
+  
+  .footer-bottom p {
+    font-size: 20px;
+    word-spacing: 4px;
+    text-transform: capitalize;
+  }
+  
+  .footer-bottom span {
+    text-transform: uppercase;
+    opacity: .4;
+    font-weight: 200;
   }
   
   /* Write your code below */

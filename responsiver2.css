@@ -27,6 +27,10 @@
     .btn {
       width: 100%;
     }
+
+    .twitter {
+      margin: 10px 0;
+    }
   
     .facebook {
       margin-bottom: 10px;
@@ -54,14 +58,6 @@
       text-align: center;
     }
   }
-
-  /* Tambahkan CSS untuk menu-icon */
-.menu-icon{
-  color: white;
-  float: right;
-  display: none;
-}
-
 
 .lesson-wrapper {
   padding-bottom: 80px;

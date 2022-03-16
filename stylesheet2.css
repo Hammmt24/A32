@@ -104,8 +104,8 @@
   }
   
   .logo {
-    width: 124px;
-    margin-top: 20px;
+    width: 200px;
+    margin-top: 0;
   }
   
   .header-left {
@@ -292,13 +292,16 @@
     color: #fff;
   }
   
-  footer img {
-    width: 150px;
+  img.image {
+    width: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
   }
-  
-  .container p {
-    color: #000000;
-    font-size: 20px;
+  .footer-container p {
+    color : #000000;
+    font-size : 20px;
+    text-align: center;
   }
   
   .footer-bottom {
